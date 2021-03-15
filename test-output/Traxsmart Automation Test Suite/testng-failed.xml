@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Traxsmart Automation Test Suite]">
+  <test name="Traxsmart App Test Cases(failed)">
+    <classes>
+      <class name="com.traxsmart.qa.testcase.LoginPageTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="LoginPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- com.traxsmart.qa.testcase.LoginPageTest -->
+      <class name="com.traxsmart.qa.testcase.HomePageTest">
+        <methods>
+          <include name="verifyHomaPageTitle"/>
+          <include name="TearDown"/>
+          <include name="verifyServiceReport"/>
+          <include name="verifyServiceRequestlink"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.traxsmart.qa.testcase.HomePageTest -->
+    </classes>
+  </test> <!-- Traxsmart App Test Cases(failed) -->
+</suite> <!-- Failed suite [Traxsmart Automation Test Suite] -->

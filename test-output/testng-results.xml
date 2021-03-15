@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="126144" started-at="2021-03-15T22:38:00Z" finished-at="2021-03-15T22:40:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="126144" started-at="2021-03-15T22:38:00Z" finished-at="2021-03-15T22:40:06Z">
+      <class name="com.traxsmart.qa.testcase.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.traxsmart.qa.testcase.HomePageTest@4501b7af]" name="setUp" is-config="true" duration-ms="25050" started-at="2021-03-15T15:38:34Z" finished-at="2021-03-15T15:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomaPageTitle()[pri:0, instance:com.traxsmart.qa.testcase.HomePageTest@4501b7af]" name="verifyHomaPageTitle" duration-ms="2035" started-at="2021-03-15T15:38:59Z" finished-at="2021-03-15T15:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomaPageTitle -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.traxsmart.qa.testcase.HomePageTest@4501b7af]" name="TearDown" is-config="true" duration-ms="731" started-at="2021-03-15T15:39:01Z" finished-at="2021-03-15T15:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.traxsmart.qa.testcase.HomePageTest@4501b7af]" name="setUp" is-config="true" duration-ms="23404" started-at="2021-03-15T15:39:01Z" finished-at="2021-03-15T15:39:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyServiceReport()[pri:0, instance:com.traxsmart.qa.testcase.HomePageTest@4501b7af]" name="verifyServiceReport" duration-ms="5329" started-at="2021-03-15T15:39:25Z" finished-at="2021-03-15T15:39:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyServiceReport -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.traxsmart.qa.testcase.HomePageTest@4501b7af]" name="TearDown" is-config="true" duration-ms="698" started-at="2021-03-15T15:39:30Z" finished-at="2021-03-15T15:39:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.traxsmart.qa.testcase.HomePageTest@4501b7af]" name="setUp" is-config="true" duration-ms="29066" started-at="2021-03-15T15:39:31Z" finished-at="2021-03-15T15:40:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyServiceRequestlink()[pri:0, instance:com.traxsmart.qa.testcase.HomePageTest@4501b7af]" name="verifyServiceRequestlink" duration-ms="5405" started-at="2021-03-15T15:40:00Z" finished-at="2021-03-15T15:40:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyServiceRequestlink -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.traxsmart.qa.testcase.HomePageTest@4501b7af]" name="TearDown" is-config="true" duration-ms="763" started-at="2021-03-15T15:40:05Z" finished-at="2021-03-15T15:40:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.traxsmart.qa.testcase.HomePageTest -->
+      <class name="com.traxsmart.qa.testcase.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.traxsmart.qa.testcase.LoginPageTest@8bd1b6a]" name="setUp" is-config="true" duration-ms="8091" started-at="2021-03-15T15:38:00Z" finished-at="2021-03-15T15:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginPageTitleTest()[pri:0, instance:com.traxsmart.qa.testcase.LoginPageTest@8bd1b6a]" name="LoginPageTitleTest" duration-ms="22" started-at="2021-03-15T15:38:08Z" finished-at="2021-03-15T15:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTitleTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.traxsmart.qa.testcase.LoginPageTest@8bd1b6a]" name="TearDown" is-config="true" duration-ms="755" started-at="2021-03-15T15:38:08Z" finished-at="2021-03-15T15:38:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.traxsmart.qa.testcase.LoginPageTest@8bd1b6a]" name="setUp" is-config="true" duration-ms="7444" started-at="2021-03-15T15:38:09Z" finished-at="2021-03-15T15:38:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.traxsmart.qa.testcase.LoginPageTest@8bd1b6a]" name="LoginTest" duration-ms="16567" started-at="2021-03-15T15:38:16Z" finished-at="2021-03-15T15:38:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.traxsmart.qa.testcase.LoginPageTest@8bd1b6a]" name="TearDown" is-config="true" duration-ms="756" started-at="2021-03-15T15:38:33Z" finished-at="2021-03-15T15:38:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.traxsmart.qa.testcase.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

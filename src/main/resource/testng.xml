@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Traxsmart Automation Test Suite">
+  <test thread-count="5" name="Traxsmart App Test Cases">
+    <classes>
+      <class name="com.traxsmart.qa.testcase.LoginPageTest"/>
+      <class name="com.traxsmart.qa.testcase.HomePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
