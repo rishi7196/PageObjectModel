@@ -21,12 +21,9 @@ public class TestBase {
 		{
 			prop= new Properties();
 			//System.getProperty("user.dir");
-			FileInputStream ip= new FileInputStream("E:\\Framework\\TraxsmartTest\\TraxsmartTest\\src\\main"
-					+ "\\java\\com\\traxsmart\\qa\\config\\config.properties");
-//			FileInputStream ip= new FileInputStream(System.getProperty("user.dir")
-//					+ "src\\main\\java\\com\\traxsmart\\qa\\config\\config.properties");
-//			
-			prop.load(ip);
+			FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\"
+					+ "java\\com\\traxsmart\\qa\\config\\config.properties");
+			prop.load(fis);
 		}catch (FileNotFoundException e) {
 			e.printStackTrace();
 			// TODO: handle exception
@@ -39,7 +36,7 @@ public class TestBase {
 	{
 		String browserName= prop.getProperty("browser");
 		if(browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver","D:\\Software1\\jars\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",(System.getProperty("user.dir")+"\\src\\main\\java\\chromedriver.exe"));
 					
 		     driver= new ChromeDriver();
 		}

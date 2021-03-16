@@ -4,7 +4,7 @@
 <listeners>
 <listener class-name="resources.ExtentReporterNG"/>
 </listeners>
-  <test thread-count="0" name="Test">
+  <test thread-count="5" name="Test">
     <classes>
        
       <class name="com.traxsmart.qa.testcase.LoginPageTest"/>
